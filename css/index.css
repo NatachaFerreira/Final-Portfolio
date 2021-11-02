@@ -4,7 +4,6 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    
 }
 
 .hero {
@@ -45,9 +44,6 @@ body {
 }
 
 @media (max-width: 395px) {
-    .hero-intro {
-        margin-top: 130px;
-    }
     .hero-intro, .hero-description {
         font-size: 19px;
     }
