@@ -1,0 +1,21 @@
+footer {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    opacity: 45%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #746F71;
+}
+
+.link-icons {
+    font-size: 20px;
+}
+
+.icon {
+     margin-left: 3px;
+}

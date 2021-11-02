@@ -8,13 +8,19 @@
 }
 
 .navbar-brand {
-    border: 1px solid #e2cdd4;
+    border: 1px solid #CBC2C5;
     margin: 10px 0;
+    opacity: 60%;
     padding: 5px 10px;
-    
 }
 
 .active {
     font-weight: 400;
     opacity: 80%;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        border-radius: 4px;
+    }
 }
