@@ -19,3 +19,30 @@ a:hover {
 .icon {
      margin-left: 3px;
 }
+
+@media (max-width: 600px) {
+    small {
+        font-size: 12px;
+    }
+
+    .link-icons {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 395px) {
+    small {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 340px) {
+    small {
+        font-size: 10px;
+    }
+
+    .link-icons {
+        font-size: 13px;
+    }
+}
