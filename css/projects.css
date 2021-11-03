@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #ffffff;
+    --primary-color: #fff;
     --secondary-color: #9e818a;
     --tertiary-color: #8a5a69;
     --main-font-family: 'Lato', serif;
@@ -132,8 +132,6 @@ h1, h2 {
 
 
 @media (max-width: 768px) {
-    
-
     .weather-app-img {
         border: 15px solid var(--primary-color);
         width: 270px;
@@ -152,8 +150,6 @@ h1, h2 {
 }
 
 @media (max-width: 540px) {
-    
-
     .weather-app-img {
         border: 10px solid var(--primary-color);
         width: 280px;
