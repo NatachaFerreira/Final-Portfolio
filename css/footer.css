@@ -1,6 +1,9 @@
 :root {
+    --primary-color: #ffffff;
     --secondary-color: #9e818a;
     --tertiary-color: #8a5a69;
+    --main-font-family: 'Lato', serif;
+    --secondary-font-family: 'Playfair Display', serif;
 }
 
 footer {
