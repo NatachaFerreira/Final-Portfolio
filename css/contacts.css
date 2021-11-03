@@ -20,6 +20,14 @@ h1 {
     margin: 70px 0 80px 0;
 }
 
+.first-col {
+    padding-left: 60px;
+}
+
+.secon-col {
+    margin-top: 15px;
+    padding-right: 60px;
+}
 
 .form-edit {
     font-size: var(--main-font-family);
@@ -63,11 +71,6 @@ h1 {
     box-shadow: none;
 }
 
-.flex-column {
-    margin-top: 15px;
-    padding-right: 60px;
-}
-
 .icon {
     color: var(--secondary-color);
     font-size: 40px;
@@ -85,10 +88,20 @@ h1 {
     color: var(--tertiary-color);
 }
 
-@media (max-width: 400px) {
-    h1 {
-        font-size: 30px;
+@media (max-width: 766px) {
+    .first-col {
+        padding-right: 60px;
+        margin-bottom: 50px;
     }
+
+}
+
+@media (max-width: 400px) {
+    .form-edit h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
     .icon {
         font-size: 40px;
     }
