@@ -1,15 +1,20 @@
+:root {
+    --secondary-color: #9e818a;
+    --tertiary-color: #8a5a69;
+}
+
 footer {
+    color: var(--secondary-color);
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    opacity: 45%;
 }
 
 a {
-    color: black;
+    color: var(--secondary-color);
 }
 
 a:hover {
-    color: #746F71;
+    color: var(--tertiary-color);
 }
 
 .link-icons {
