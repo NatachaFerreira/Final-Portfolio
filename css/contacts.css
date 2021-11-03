@@ -24,7 +24,7 @@ h1 {
     padding-left: 60px;
 }
 
-.secon-col {
+.second-col {
     margin-top: 15px;
     padding-right: 60px;
 }
@@ -92,6 +92,10 @@ h1 {
     .first-col {
         padding-right: 60px;
         margin-bottom: 50px;
+    }
+
+    .second-col {
+        padding: 0;
     }
 
 }
